@@ -74,10 +74,6 @@ export const Light = {
         },
       },
     },
-    rendering: {
-      componentName: 'Rendering',
-      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
-    },
   },
 };
 
@@ -101,10 +97,6 @@ export const LightPatternBackground = {
           text: 'View Speakers',
         },
       },
-    },
-    rendering: {
-      componentName: 'Rendering',
-      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
     },
   },
 };
@@ -130,10 +122,6 @@ export const Dark = {
         },
       },
     },
-    rendering: {
-      componentName: 'Rendering',
-      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
-    },
   },
 };
 
@@ -157,10 +145,6 @@ export const DarkPatternBackground = {
           text: 'View Speakers',
         },
       },
-    },
-    rendering: {
-      componentName: 'Rendering',
-      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
     },
   },
 };
@@ -186,10 +170,6 @@ export const FullLeft = {
           text: 'View Speakers',
         },
       },
-    },
-    rendering: {
-      componentName: 'Rendering',
-      dataSource: '/AnythingForTheWithDatasourceCheckHocToDisplayTheComponent',
     },
   },
 };

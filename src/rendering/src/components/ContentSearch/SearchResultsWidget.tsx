@@ -63,7 +63,6 @@ const SearchResults = ({
         sort: { choices: sortChoices = [] } = {},
         facet: facets = [],
         content: items = [],
-        suggestion: { content_name_context_aware: suggestions = [] } = {},
       } = {},
     },
   } = useSearchResults<ContentItemModel, InitialState>({
@@ -87,8 +86,7 @@ const SearchResults = ({
           'job_title',
           'rooms',
           'days',
-        ])
-        .setSearchSuggestion([{ name: 'content_name_context_aware', max: 4 }]);
+        ]);
     },
     state: {
       sortType: defaultSortType,
@@ -143,7 +141,6 @@ const SearchResults = ({
           keyphrase={q}
           onKeyphraseChange={handleKeyphraseChange}
           onKeyphraseClear={handleKeyphraseClear}
-          suggestions={suggestions}
         >
           {!items.length ? (
             <p className="search-results-widget-no-results">No results found</p>
